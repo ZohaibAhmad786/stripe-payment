@@ -5,7 +5,7 @@
   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
   <application android:name=".MainApplication" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round" android:allowBackup="false" android:theme="@style/AppTheme">
    
-    <meta-data android:name="com.google.android.geo.API_KEY" android:value="YOUR_KEY" />
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyDCNdxZGdKj6xJLhYw_s550yunn-mjq6K8" />
     <meta-data android:name="com.google.android.gms.wallet.api.enabled" android:value="true" />
    
     <activity android:name=".MainActivity" android:label="@string/app_name" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:launchMode="singleTask" android:windowSoftInputMode="adjustResize" android:exported="true">
