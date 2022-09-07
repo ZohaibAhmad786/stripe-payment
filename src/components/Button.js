@@ -39,7 +39,6 @@ export default class Button extends PureComponent {
         <View>
           {loading && <ActivityIndicator animating size="small" />}
           {!loading && !disabled && <Text>{text}</Text>}
-
           {!loading && disabled && <Text>{disabledText || text}</Text>}
         </View>
       </TouchableHighlight>
